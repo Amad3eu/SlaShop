@@ -34,7 +34,7 @@ You can visit and explore in the Slash at [https://slashop.vercel.app]().
 - [ ] Using [Sanity.io](https://www.sanity.io/) as database (incomplete)
 - [x] Fully responsive
 - [ ] Multi-language (EN-BR)
--[x] Multi-theme (Dark/Light)
+- [x] Multi-theme (Dark/Light)
 
 ## 📃Pages
 
