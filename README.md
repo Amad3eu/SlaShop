@@ -31,9 +31,9 @@ You can visit and explore in the Slash at []().
 ## 🔥Features
 
 - [x] Using Redux toolkit as state manager
-- [] Using [Sanity.io](https://www.sanity.io/) as database (incomplete)
+- [ ] Using [Sanity.io](https://www.sanity.io/) as database (incomplete)
 - [x] Fully responsive
-- [] Multi-language (EN-BR)
+- [ ] Multi-language (EN-BR)
 -[x] Multi-theme (Dark/Light)
 
 ## 📃Pages
