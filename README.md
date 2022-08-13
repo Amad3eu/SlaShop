@@ -6,7 +6,6 @@ An E-commerce site template, implemented with [Next.js](https://nextjs.org/) and
 <p>To support me, please create <strong>Pull request</strong> and give <strong>star⭐</strong> to this repository.<br/>
    I appreciate your support in advance. ❤</p>
 
-
 <p>
 
 [Technologies](#technologies) •
@@ -17,63 +16,74 @@ An E-commerce site template, implemented with [Next.js](https://nextjs.org/) and
 [Contributing](#contributing) •
 [Contact Me](#contact-me)
   
-
-
 ## 🔧Technologies
+
 ![React](https://img.shields.io/badge/-React-05122A?style=for-the-badge&logo=react)&nbsp;
 ![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=for-the-badge&logo=typescript)&nbsp;
 ![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=for-the-badge&logo=next.js)&nbsp;
 ![Redux](https://img.shields.io/badge/-Redux-05122A?style=for-the-badge&logo=redux&logoColor=764ABC)&nbsp;
 ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-05122A?style=for-the-badge&logo=tailwindCSS&logoColor=06B6D4)
 
-
 ## ✨Demo
-You can visit and explore in the Slash template at []().
+
+You can visit and explore in the Slash at []().
 
 ## 🔥Features
-* Using Redux toolkit as state manager
-* Using [Sanity.io](https://www.sanity.io/) as database
-* Fully responsive
-* Multi-language (EN-BR)
-* Multi-theme (Dark/Light)
+
+- [x] Using Redux toolkit as state manager
+- [] Using [Sanity.io](https://www.sanity.io/) as database (incomplete)
+- [x] Fully responsive
+- [] Multi-language (EN-BR)
+-[x] Multi-theme (Dark/Light)
 
 ## 📃Pages
-* Main (index)
-* Login/SignUp
-* Products List
-* Product Details
-* Cart
-* Favorites
-* About
+
+- Main (index)
+- Login/SignUp
+- Products List
+- Product Details
+- Cart
+- Favorites
+- About
+
 <p align="right">(<a href="#top">BACK TO TOP 🔝</a>)</p>
 
 ## 🚀Getting Started
+
 1. Sign up in [sanity.io](https://www.sanity.io/) and get `projectId` and `token`
 
 > **Warning**&nbsp;
-
+> To work with sanity, people how live in Iran should run `VPN`.
 
 2. Clone the project
+
   ```bash
   git clone https://github.com/Amad3eu/slashshop.git
   ```
+
 3. Install project dependencies
+
   ```bash
   npm install
   #or
   yarn add
   ```
+
 4. Enter your `projectId` into `lib/client.ts`
 5. Add `.env` file to root project, and enter your `token` into `.env`
+
   ```js
   NEXT_PUBLIC_SANITY_TOKEN= [ENTER YOUR TOKEN]
   ```
+
 6. Go to sanity_onlineshop folder and open new terminal in this path, then
+
   ```bash
   sanity start
   ```
+
 open `http://localhost:3333` and enter products.
- 
+
 7. Run the development server in project root path:
 
   ```bash
@@ -99,12 +109,10 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
-
 ## 💬Contact Me
+
   <p>
-    <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+    <a href="https://www.linkedin.com/in/luiz-felipe-warmling-amadeu-752692211/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
     <a href="mailto:luizfelipewarmling@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
   </p>
   
