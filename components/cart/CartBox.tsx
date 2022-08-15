@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { cartUiActions } from "../../store/cartUI-slice";
 import { useLanguage } from "../../hooks/useLanguage";
 import { ICartRootState } from "../../lib/types/cart";
-import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToFa} from "../../utilities/changeNumbersFormatEnToFa";
 import { gbpCurrencyFormat } from "../../utilities/currencyFormat";
 import CartItem from "./CartItem";
 import { useExchangeRateGBPToIRR } from "../../hooks/useExchangeRateGBPToIRR";
