@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { useLanguage } from "../../hooks/useLanguage";
 import { ICartRootState } from "../../lib/types/cart";
 import ProductPrice from "../UI/ProductPrice";
-import { changeNumbersFormatEnToFa } from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToFa";
 
 const OrderSummaryBox = () => {
   const { t, locale } = useLanguage();

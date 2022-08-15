@@ -6,7 +6,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { cartUiActions } from "../../store/cartUI-slice";
 import CartBox from "./CartBox";
 import { ICartUiRootState, ICartRootState } from "../../lib/types/cart";
-import { changeNumbersFormatEnToFa } from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToFa";
 import { useLanguage } from "../../hooks/useLanguage";
 
 const Basket = () => {
