@@ -30,6 +30,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amad3eu/slashshop.git"
-  }
+    "url": "git+https://github.com/Amad3eu/slashshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amad3eu/slashshop/issues"
+  },
+  "homepage": "https://github.com/Amad3eu/slashshop#readme"
 }
