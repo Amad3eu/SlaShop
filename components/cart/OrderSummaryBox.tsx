@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { useLanguage } from "../../hooks/useLanguage";
 import { ICartRootState } from "../../lib/types/cart";
 import ProductPrice from "../UI/ProductPrice";
-import { changeNumbersFormatEnToFa} from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToPt";
 
 const OrderSummaryBox = () => {
   const { t, locale } = useLanguage();
@@ -28,7 +28,7 @@ const OrderSummaryBox = () => {
               <p className="rtl:ml-1 ltr:mr-1 font-bold">
                 {locale === "en"
                   ? totalQuantity
-                  : changeNumbersFormatEnToFa(totalQuantity)}
+                  : changeNumbersFormatEnToPt(totalQuantity)}
               </p>
             </div>
             <div className="flex flex-wrap items-center justify-between flex-grow px-0 xl:px-8 md:my-4">

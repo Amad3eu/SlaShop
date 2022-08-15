@@ -4,10 +4,10 @@ import { useSelector, useDispatch } from "react-redux";
 import { cartUiActions } from "../../store/cartUI-slice";
 import { useLanguage } from "../../hooks/useLanguage";
 import { ICartRootState } from "../../lib/types/cart";
-import { changeNumbersFormatEnToFa} from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToPt";
 import { gbpCurrencyFormat } from "../../utilities/currencyFormat";
 import CartItem from "./CartItem";
-import { useExchangeRateGBPToIRR } from "../../hooks/useExchangeRateGBPToIRR";
+import { useExchangeRateGBPToIRR } from "../../hooks/useExchangeRateGBPToBR";
 import { IUserInfoRootState } from "../../lib/types/user";
 
 const CartBox = () => {
@@ -41,7 +41,7 @@ const CartBox = () => {
           <span>
             {locale === "en"
               ? cartItemQuantity
-              : changeNumbersFormatEnToFa(cartItemQuantity)}{" "}
+              : changeNumbersFormatEnToPt(cartItemQuantity)}{" "}
             {t.product}
           </span>
           <span onClick={onCloseCartBoxHandler}>
