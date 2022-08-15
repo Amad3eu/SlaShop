@@ -15,7 +15,7 @@ const Layout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
     <Provider store={store}>
       <ThemeProvider enableSystem={true} attribute="class">
         <Head>
-          <title>ZiShop</title>
+          <title>Slash Shop</title>
         </Head>
         <div className="flex flex-col min-h-[100vh]">
           <NextNProgress height={5} />
