@@ -2,7 +2,7 @@ import React from "react";
 import { useExchangeRateGBPToIRR } from "../../hooks/useExchangeRateGBPToIRR";
 import { useLanguage } from "../../hooks/useLanguage";
 import { calculateDiscountPercentage } from "../../utilities/calculateDiscountPercentage";
-import { changeNumbersFormatEnToPt} from "../../utilities/changeNumbersFormatEnToFa";
+import { changeNumbersFormatEnToFa} from "../../utilities/changeNumbersFormatEnToFa";
 import { gbpCurrencyFormat } from "../../utilities/currencyFormat";
 
 interface Props {
