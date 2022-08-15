@@ -45,7 +45,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        farsi: "'iranyekan', 'IRANSans', 'Tahoma'",
+        portuguese: "'Poppins', 'Roboto', 'sans-serif'",
         english: "'Poppins', 'Roboto', 'sans-serif'",
       },
       keyframes: {
