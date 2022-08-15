@@ -1,6 +1,6 @@
-// Rial currency format
+// Real currency format
 export const irrCurrencyFormat = (price: number | undefined) => {
-  return price ? new Intl.NumberFormat("Fa").format(price) : null;
+  return price ? new Intl.NumberFormat("Pt").format(price) : null;
 };
 
 //pound currency format
